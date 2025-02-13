@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\" />
+    <ProjectReference Include="..\BookStore.EnttityLayer\BookStore.EnttityLayer.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BookStore.EnttityLayer\BookStore.EnttityLayer.csproj" />
+    <Folder Include="Concrete\" />
   </ItemGroup>
 
 </Project>

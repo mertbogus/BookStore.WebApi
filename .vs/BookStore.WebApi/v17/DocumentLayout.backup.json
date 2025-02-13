@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FE69FE7-73A6-4CDA-93FF-A7EF6827F8C0}|BookStore.WebApi\\BookStore.WebApi.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE69FE7-73A6-4CDA-93FF-A7EF6827F8C0}|BookStore.WebApi\\BookStore.WebApi.csproj|solutionrelative:bookstore.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561F8E0C-C040-4B41-A233-32C618326DDE}|BookStore.BusinessLayer\\BookStore.BusinessLayer.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.businesslayer\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561F8E0C-C040-4B41-A233-32C618326DDE}|BookStore.BusinessLayer\\BookStore.BusinessLayer.csproj|solutionrelative:bookstore.businesslayer\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB959B15-F601-4623-BEED-C610BA4FAF9A}|BookStore.DataAccessLayer\\BookStore.DataAccessLayer.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.dataaccesslayer\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB959B15-F601-4623-BEED-C610BA4FAF9A}|BookStore.DataAccessLayer\\BookStore.DataAccessLayer.csproj|solutionrelative:bookstore.dataaccesslayer\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB959B15-F601-4623-BEED-C610BA4FAF9A}|BookStore.DataAccessLayer\\BookStore.DataAccessLayer.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.dataaccesslayer\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB959B15-F601-4623-BEED-C610BA4FAF9A}|BookStore.DataAccessLayer\\BookStore.DataAccessLayer.csproj|solutionrelative:bookstore.dataaccesslayer\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB959B15-F601-4623-BEED-C610BA4FAF9A}|BookStore.DataAccessLayer\\BookStore.DataAccessLayer.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.dataaccesslayer\\entityframework\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB959B15-F601-4623-BEED-C610BA4FAF9A}|BookStore.DataAccessLayer\\BookStore.DataAccessLayer.csproj|solutionrelative:bookstore.dataaccesslayer\\entityframework\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{561F8E0C-C040-4B41-A233-32C618326DDE}|BookStore.BusinessLayer\\BookStore.BusinessLayer.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.businesslayer\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561F8E0C-C040-4B41-A233-32C618326DDE}|BookStore.BusinessLayer\\BookStore.BusinessLayer.csproj|solutionrelative:bookstore.businesslayer\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561F8E0C-C040-4B41-A233-32C618326DDE}|BookStore.BusinessLayer\\BookStore.BusinessLayer.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.businesslayer\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561F8E0C-C040-4B41-A233-32C618326DDE}|BookStore.BusinessLayer\\BookStore.BusinessLayer.csproj|solutionrelative:bookstore.businesslayer\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561F8E0C-C040-4B41-A233-32C618326DDE}|BookStore.BusinessLayer\\BookStore.BusinessLayer.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.businesslayer\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561F8E0C-C040-4B41-A233-32C618326DDE}|BookStore.BusinessLayer\\BookStore.BusinessLayer.csproj|solutionrelative:bookstore.businesslayer\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE69FE7-73A6-4CDA-93FF-A7EF6827F8C0}|BookStore.WebApi\\BookStore.WebApi.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE69FE7-73A6-4CDA-93FF-A7EF6827F8C0}|BookStore.WebApi\\BookStore.WebApi.csproj|solutionrelative:bookstore.webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,28 +78,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.BusinessLayer\\Concrete\\ProductManager.cs",
+              "RelativeDocumentMoniker": "BookStore.BusinessLayer\\Concrete\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.BusinessLayer\\Concrete\\ProductManager.cs",
+              "RelativeToolTip": "BookStore.BusinessLayer\\Concrete\\ProductManager.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:49:29.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.BusinessLayer\\Abstract\\IProductService.cs",
+              "RelativeDocumentMoniker": "BookStore.BusinessLayer\\Abstract\\IProductService.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.BusinessLayer\\Abstract\\IProductService.cs",
+              "RelativeToolTip": "BookStore.BusinessLayer\\Abstract\\IProductService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:47:45.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EfProductDal.cs",
               "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.DataAccessLayer\\EntityFramework\\EfProductDal.cs",
               "RelativeDocumentMoniker": "BookStore.DataAccessLayer\\EntityFramework\\EfProductDal.cs",
               "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.DataAccessLayer\\EntityFramework\\EfProductDal.cs",
               "RelativeToolTip": "BookStore.DataAccessLayer\\EntityFramework\\EfProductDal.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T01:05:57.187Z",
+              "WhenOpened": "2025-02-13T18:44:01.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductDal.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.DataAccessLayer\\Abstract\\IProductDal.cs",
+              "RelativeDocumentMoniker": "BookStore.DataAccessLayer\\Abstract\\IProductDal.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.DataAccessLayer\\Abstract\\IProductDal.cs",
+              "RelativeToolTip": "BookStore.DataAccessLayer\\Abstract\\IProductDal.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:41:46.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EfcategoryDal.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.DataAccessLayer\\EntityFramework\\EfcategoryDal.cs",
-              "RelativeDocumentMoniker": "BookStore.DataAccessLayer\\EntityFramework\\EfcategoryDal.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.DataAccessLayer\\EntityFramework\\EfcategoryDal.cs",
-              "RelativeToolTip": "BookStore.DataAccessLayer\\EntityFramework\\EfcategoryDal.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.BusinessLayer\\Concrete\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "BookStore.BusinessLayer\\Concrete\\CategoryManager.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.BusinessLayer\\Concrete\\CategoryManager.cs",
+              "RelativeToolTip": "BookStore.BusinessLayer\\Concrete\\CategoryManager.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T01:04:39.557Z",
+              "WhenOpened": "2025-02-13T18:34:48.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "BookStore.WebApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "BookStore.WebApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:23:48.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGenericService.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.BusinessLayer\\Abstract\\IGenericService.cs",
+              "RelativeDocumentMoniker": "BookStore.BusinessLayer\\Abstract\\IGenericService.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.BusinessLayer\\Abstract\\IGenericService.cs",
+              "RelativeToolTip": "BookStore.BusinessLayer\\Abstract\\IGenericService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:45:42.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebApi\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "BookStore.WebApi\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebApi\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "BookStore.WebApi\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:41:55.455Z",
               "EditorCaption": ""
             }
           ]

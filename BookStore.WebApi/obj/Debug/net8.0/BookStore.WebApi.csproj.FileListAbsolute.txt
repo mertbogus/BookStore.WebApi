@@ -150,3 +150,5 @@ C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\obj\Debug\net8.0\re
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\obj\Debug\net8.0\BookStore.WebApi.pdb
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\obj\Debug\net8.0\BookStore.WebApi.genruntimeconfig.cache
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\obj\Debug\net8.0\ref\BookStore.WebApi.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.BusinessLayer.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.BusinessLayer.pdb

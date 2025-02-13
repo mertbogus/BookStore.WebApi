@@ -15,5 +15,12 @@ namespace BookStore.DataAccessLayer.EntityFramework
         public EfProductDal(BookStoreContext context) : base(context)
         {
         }
+
+        public int GetProductCount()
+        {
+            var context = new BookStoreContext();
+            int value = context.Products.Count();
+            return value;
+        }
     }
 }
