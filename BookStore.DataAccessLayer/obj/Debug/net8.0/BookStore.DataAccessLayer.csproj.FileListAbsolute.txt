@@ -1,0 +1,16 @@
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\bin\Debug\net8.0\BookStore.DataAccessLayer.deps.json
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\bin\Debug\net8.0\BookStore.DataAccessLayer.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\bin\Debug\net8.0\BookStore.DataAccessLayer.pdb
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\bin\Debug\net8.0\BookStore.EnttityLayer.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\bin\Debug\net8.0\BookStore.EnttityLayer.pdb
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\obj\Debug\net8.0\BookStore.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\obj\Debug\net8.0\BookStore.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\obj\Debug\net8.0\BookStore.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\obj\Debug\net8.0\BookStore.DataAccessLayer.AssemblyInfo.cs
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\obj\Debug\net8.0\BookStore.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\obj\Debug\net8.0\BookStore.DataAccessLayer.sourcelink.json
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\obj\Debug\net8.0\BookStor.B6978226.Up2Date
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\obj\Debug\net8.0\BookStore.DataAccessLayer.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\obj\Debug\net8.0\refint\BookStore.DataAccessLayer.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\obj\Debug\net8.0\BookStore.DataAccessLayer.pdb
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.DataAccessLayer\obj\Debug\net8.0\ref\BookStore.DataAccessLayer.dll

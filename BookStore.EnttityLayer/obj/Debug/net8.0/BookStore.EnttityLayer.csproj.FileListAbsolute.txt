@@ -1,0 +1,15 @@
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\bin\Debug\net8.0\BookStore.EnttityLayer.deps.json
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\bin\Debug\net8.0\BookStore.EnttityLayer.runtimeconfig.json
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\bin\Debug\net8.0\BookStore.EnttityLayer.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\bin\Debug\net8.0\BookStore.EnttityLayer.pdb
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\obj\Debug\net8.0\BookStore.EnttityLayer.csproj.AssemblyReference.cache
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\obj\Debug\net8.0\BookStore.EnttityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\obj\Debug\net8.0\BookStore.EnttityLayer.AssemblyInfoInputs.cache
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\obj\Debug\net8.0\BookStore.EnttityLayer.AssemblyInfo.cs
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\obj\Debug\net8.0\BookStore.EnttityLayer.csproj.CoreCompileInputs.cache
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\obj\Debug\net8.0\BookStore.EnttityLayer.sourcelink.json
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\obj\Debug\net8.0\BookStore.EnttityLayer.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\obj\Debug\net8.0\refint\BookStore.EnttityLayer.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\obj\Debug\net8.0\BookStore.EnttityLayer.pdb
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\obj\Debug\net8.0\BookStore.EnttityLayer.genruntimeconfig.cache
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.EnttityLayer\obj\Debug\net8.0\ref\BookStore.EnttityLayer.dll
