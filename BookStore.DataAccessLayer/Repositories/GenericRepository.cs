@@ -35,7 +35,7 @@ namespace BookStore.DataAccessLayer.Repositories
             return _context.Set<T>().ToList();
         }
 
-        public T GetNyId(int id)
+        public T GetById(int id)
         {
             return _context.Set<T>().Find(id);
         }

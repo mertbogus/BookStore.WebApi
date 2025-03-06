@@ -122,9 +122,7 @@ C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\ru
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.DataAccessLayer.dll
-C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.EnttityLayer.dll
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.DataAccessLayer.pdb
-C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.EnttityLayer.pdb
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\obj\Debug\net8.0\BookStore.WebApi.csproj.AssemblyReference.cache
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\obj\Debug\net8.0\BookStore.WebApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\obj\Debug\net8.0\BookStore.WebApi.AssemblyInfoInputs.cache
@@ -152,3 +150,5 @@ C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\obj\Debug\net8.0\Bo
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\obj\Debug\net8.0\ref\BookStore.WebApi.dll
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.BusinessLayer.dll
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.BusinessLayer.pdb
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.EntityLayer.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.EntityLayer.pdb

@@ -569,7 +569,7 @@
       },
       "BookStore.DataAccessLayer/1.0.0": {
         "dependencies": {
-          "BookStore.EnttityLayer": "1.0.0"
+          "BookStore.EntityLayer": "1.0.0"
         },
         "runtime": {
           "BookStore.DataAccessLayer.dll": {
@@ -578,13 +578,13 @@
           }
         }
       },
-      "BookStore.EnttityLayer/1.0.0": {
+      "BookStore.EntityLayer/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.13"
         },
         "runtime": {
-          "BookStore.EnttityLayer.dll": {
+          "BookStore.EntityLayer.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -988,7 +988,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BookStore.EnttityLayer/1.0.0": {
+    "BookStore.EntityLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,19 @@
+﻿@model BookStore.WebUI.Dtos.CategoryDtos.GetByIdCategoryDto
+@{
+    ViewData["Title"] = "UpdateCategory";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<form method="post" class="w-80 mx-auto mt-4">
+    <div class="p-4 shadow-lg border-0 bg-transparent">
+        <h3 class="text-center mb-3">Yeni Kategori Ekle</h3>
+        <input type="hidden" asp-for="CategoryId" />
+        <label class="fw-bold">Kategori Adı</label>
+        <input type="text" asp-for="CategoryName" class="form-control mb-3" placeholder="Kategori adını giriniz" required />
+
+        <button type="submit" class="btn btn-warning fw-bold w-100">
+            <i class="fas fa-plus"></i> Kategoriyi Ekle
+        </button>
+    </div>
+</form>
+

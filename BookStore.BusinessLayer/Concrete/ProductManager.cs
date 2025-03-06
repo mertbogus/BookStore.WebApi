@@ -35,7 +35,7 @@ namespace BookStore.BusinessLayer.Concrete
 
         public Product GetById(int id)
         {
-            return _productDal.GetNyId(id);
+            return _productDal.GetById(id);
         }
 
         public int TGetProductCount()

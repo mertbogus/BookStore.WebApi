@@ -1,0 +1,89 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Themes\booksaw\css\ajax-loader.gif" />
+    <None Include="wwwroot\Themes\booksaw\css\normalize.css" />
+    <None Include="wwwroot\Themes\booksaw\css\vendor.css" />
+    <None Include="wwwroot\Themes\booksaw\icomoon\fonts\icomoon.eot" />
+    <None Include="wwwroot\Themes\booksaw\icomoon\fonts\icomoon.svg" />
+    <None Include="wwwroot\Themes\booksaw\icomoon\fonts\icomoon.ttf" />
+    <None Include="wwwroot\Themes\booksaw\icomoon\fonts\icomoon.woff" />
+    <None Include="wwwroot\Themes\booksaw\icomoon\icomoon.css" />
+    <None Include="wwwroot\Themes\booksaw\icomoon\Read Me.txt" />
+    <None Include="wwwroot\Themes\booksaw\images\app-store.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\chocolat\close.png" />
+    <None Include="wwwroot\Themes\booksaw\images\chocolat\fullscreen-black.png" />
+    <None Include="wwwroot\Themes\booksaw\images\chocolat\fullscreen.png" />
+    <None Include="wwwroot\Themes\booksaw\images\chocolat\left.png" />
+    <None Include="wwwroot\Themes\booksaw\images\chocolat\loader.gif" />
+    <None Include="wwwroot\Themes\booksaw\images\chocolat\right.png" />
+    <None Include="wwwroot\Themes\booksaw\images\client-image1.png" />
+    <None Include="wwwroot\Themes\booksaw\images\client-image2.png" />
+    <None Include="wwwroot\Themes\booksaw\images\client-image3.png" />
+    <None Include="wwwroot\Themes\booksaw\images\client-image4.png" />
+    <None Include="wwwroot\Themes\booksaw\images\client-image5.png" />
+    <None Include="wwwroot\Themes\booksaw\images\curly-divider.svg" />
+    <None Include="wwwroot\Themes\booksaw\images\default.png" />
+    <None Include="wwwroot\Themes\booksaw\images\device.png" />
+    <None Include="wwwroot\Themes\booksaw\images\google-play.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\item.png" />
+    <None Include="wwwroot\Themes\booksaw\images\item1.png" />
+    <None Include="wwwroot\Themes\booksaw\images\item3.png" />
+    <None Include="wwwroot\Themes\booksaw\images\item4.png" />
+    <None Include="wwwroot\Themes\booksaw\images\item5.png" />
+    <None Include="wwwroot\Themes\booksaw\images\leaf.png" />
+    <None Include="wwwroot\Themes\booksaw\images\main-banner1.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\main-banner2.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\main-logo.png" />
+    <None Include="wwwroot\Themes\booksaw\images\ns-arrow-right.svg" />
+    <None Include="wwwroot\Themes\booksaw\images\pattern1.png" />
+    <None Include="wwwroot\Themes\booksaw\images\pattern2.png" />
+    <None Include="wwwroot\Themes\booksaw\images\post-img1.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\post-img2.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\post-img3.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\product-item1.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\product-item2.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\product-item3.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\product-item4.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\product-item5.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\product-item6.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\product-item7.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\product-item8.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\single-image.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\tab-item1.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\tab-item2.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\tab-item3.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\tab-item4.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\tab-item5.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\tab-item6.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\tab-item7.jpg" />
+    <None Include="wwwroot\Themes\booksaw\images\tab-item8.jpg" />
+    <None Include="wwwroot\Themes\booksaw\index.html" />
+    <None Include="wwwroot\Themes\booksaw\js\jquery-1.11.0.min.js" />
+    <None Include="wwwroot\Themes\booksaw\js\modernizr.js" />
+    <None Include="wwwroot\Themes\booksaw\js\plugins.js" />
+    <None Include="wwwroot\Themes\booksaw\js\script.js" />
+    <None Include="wwwroot\Themes\booksaw\js\slideNav.js" />
+    <None Include="wwwroot\Themes\booksaw\js\slideNav.min.js" />
+    <None Include="wwwroot\Themes\booksaw\readme.txt" />
+    <None Include="wwwroot\Themes\booksaw\style.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+  </ItemGroup>
+
+</Project>

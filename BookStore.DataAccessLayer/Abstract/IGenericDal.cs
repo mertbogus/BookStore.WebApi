@@ -16,6 +16,6 @@ namespace BookStore.DataAccessLayer.Abstract
 
         List<T> GetAll();
 
-        T GetNyId(int id);
+        T GetById(int id);
     }
 }

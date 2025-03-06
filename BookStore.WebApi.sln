@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.WebApi", "BookStore.WebApi\BookStore.WebApi.csproj", "{2FE69FE7-73A6-4CDA-93FF-A7EF6827F8C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.EnttityLayer", "BookStore.EnttityLayer\BookStore.EnttityLayer.csproj", "{CB32CBD1-0B6A-4187-8E29-0AD856D2BAC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.EntityLayer", "BookStore.EnttityLayer\BookStore.EntityLayer.csproj", "{CB32CBD1-0B6A-4187-8E29-0AD856D2BAC8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.DataAccessLayer", "BookStore.DataAccessLayer\BookStore.DataAccessLayer.csproj", "{BB959B15-F601-4623-BEED-C610BA4FAF9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.BusinessLayer", "BookStore.BusinessLayer\BookStore.BusinessLayer.csproj", "{561F8E0C-C040-4B41-A233-32C618326DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.WebUI", "BookStore.WebUI\BookStore.WebUI.csproj", "{17A4E938-D925-4C7E-AE58-1958F01A221D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{561F8E0C-C040-4B41-A233-32C618326DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{561F8E0C-C040-4B41-A233-32C618326DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{561F8E0C-C040-4B41-A233-32C618326DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A4E938-D925-4C7E-AE58-1958F01A221D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A4E938-D925-4C7E-AE58-1958F01A221D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A4E938-D925-4C7E-AE58-1958F01A221D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A4E938-D925-4C7E-AE58-1958F01A221D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

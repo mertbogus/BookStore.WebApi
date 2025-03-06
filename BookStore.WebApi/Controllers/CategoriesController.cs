@@ -10,7 +10,6 @@ namespace BookStore.WebApi.Controllers
     public class CategoriesController : ControllerBase
     {
         private readonly ICategoryService _categoryService;
-
         public CategoriesController(ICategoryService categoryService)
         {
             _categoryService = categoryService;
@@ -27,25 +26,27 @@ namespace BookStore.WebApi.Controllers
         public IActionResult CreateCategory(Category category)
         {
             _categoryService.Add(category);
-            return Ok("Ekleme İşlemi Başarılı");
+            return Ok("Ekleme işlemi başarılı");
         }
 
         [HttpDelete]
-
         public IActionResult DeleteCategory(int id)
         {
             _categoryService.Delete(id);
-            return Ok("Silme İşlemi Başarılı");
-
+            return Ok("Silme işlemi başarılı");
         }
 
         [HttpPut]
-
         public IActionResult UpdateCategory(Category category)
         {
             _categoryService.Update(category);
-            return Ok("Güncelleme İşlemi Başarılı");
+            return Ok("Güncelleme işlemi başarılı");
+        }
 
+        [HttpGet("GetCategory")]
+        public IActionResult GetCategory(int id)
+        {
+            return Ok(_categoryService.GetById(id));
         }
     }
 }

@@ -103,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\BookStore.EnttityLayer.csproj": {
-                "projectPath": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\BookStore.EnttityLayer.csproj"
+              "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\BookStore.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\BookStore.EntityLayer.csproj"
               }
             }
           }
@@ -144,12 +144,12 @@
         }
       }
     },
-    "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\BookStore.EnttityLayer.csproj": {
+    "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\BookStore.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\BookStore.EnttityLayer.csproj",
-        "projectName": "BookStore.EnttityLayer",
-        "projectPath": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\BookStore.EnttityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\BookStore.EntityLayer.csproj",
+        "projectName": "BookStore.EntityLayer",
+        "projectPath": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\BookStore.EntityLayer.csproj",
         "packagesPath": "C:\\Users\\MERT\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\obj\\",
         "projectStyle": "PackageReference",

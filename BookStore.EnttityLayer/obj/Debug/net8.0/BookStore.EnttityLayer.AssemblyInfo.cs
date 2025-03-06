@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookStore.EnttityLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e30563f9112071e3c678c860a00ec02fd9275b9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14504ec823bf7118538c28ddc8faf0c60ddf8bbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookStore.EnttityLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookStore.EnttityLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

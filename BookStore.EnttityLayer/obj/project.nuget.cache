@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eLs/aTpyv7c=",
+  "dgSpecHash": "bAVuORVXDyY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\BookStore.EnttityLayer.csproj",
+  "projectFilePath": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.EnttityLayer\\BookStore.EntityLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MERT\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\MERT\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

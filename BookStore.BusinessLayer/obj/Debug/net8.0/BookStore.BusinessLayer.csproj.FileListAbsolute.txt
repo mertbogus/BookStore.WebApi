@@ -2,9 +2,7 @@ C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\bin\Debug\ne
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\bin\Debug\net8.0\BookStore.BusinessLayer.dll
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\bin\Debug\net8.0\BookStore.BusinessLayer.pdb
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\bin\Debug\net8.0\BookStore.DataAccessLayer.dll
-C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\bin\Debug\net8.0\BookStore.EnttityLayer.dll
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\bin\Debug\net8.0\BookStore.DataAccessLayer.pdb
-C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\bin\Debug\net8.0\BookStore.EnttityLayer.pdb
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\obj\Debug\net8.0\BookStore.BusinessLayer.csproj.AssemblyReference.cache
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\obj\Debug\net8.0\BookStore.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\obj\Debug\net8.0\BookStore.BusinessLayer.AssemblyInfoInputs.cache
@@ -16,3 +14,5 @@ C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\obj\Debug\ne
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\obj\Debug\net8.0\refint\BookStore.BusinessLayer.dll
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\obj\Debug\net8.0\BookStore.BusinessLayer.pdb
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\obj\Debug\net8.0\ref\BookStore.BusinessLayer.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\bin\Debug\net8.0\BookStore.EntityLayer.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.BusinessLayer\bin\Debug\net8.0\BookStore.EntityLayer.pdb

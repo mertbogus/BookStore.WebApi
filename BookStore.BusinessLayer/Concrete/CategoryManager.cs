@@ -20,7 +20,7 @@ namespace BookStore.BusinessLayer.Concrete
 
         public void Add(Category entity)
         {
-            if (entity.CategoryName.Length>=3 && entity.CategoryName.Length >= 30 && entity.CategoryName.Contains('a'))
+            if (entity.CategoryName.Length >= 3 && entity.CategoryName.Length <= 30)
             {
                 _categoryDal.Add(entity);
             }
@@ -38,7 +38,7 @@ namespace BookStore.BusinessLayer.Concrete
 
         public Category GetById(int id)
         {
-           return _categoryDal.GetNyId(id);
+           return _categoryDal.GetById(id);
         }
 
         public void Update(Category entity)
