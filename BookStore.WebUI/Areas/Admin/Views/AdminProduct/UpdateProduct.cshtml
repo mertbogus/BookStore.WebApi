@@ -1,13 +1,12 @@
 ﻿@model BookStore.WebUI.Dtos.ProductDtos.GetByIdProductDto
 
 @{
-    Layout = null;
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
 }
 
 <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 
 <form method="post">
-    <div class="container">
         <br /><br />
         <input type="hidden" asp-for="ProductId" />
         <label>Ürün Adı</label>
@@ -19,6 +18,5 @@
         <label>Ürün Stok Sayısı</label>
         <input type="text" asp-for="ProductStock" class="form-control" />
         <br />
-        <button type="submit" class="btn btn-primary">Ürünü Güncelle</button>
-    </div>
+        <button type="submit" class="btn btn-warning">Ürünü Güncelle</button>
 </form>

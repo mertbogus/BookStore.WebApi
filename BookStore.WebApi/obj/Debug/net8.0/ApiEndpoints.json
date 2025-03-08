@@ -19,7 +19,7 @@
     "Parameters": [
       {
         "Name": "category",
-        "Type": "BookStore.EnttityLayer.Concrete.Category",
+        "Type": "BookStore.WebApi.Dtos.CategoryDto.CreateCategory",
         "IsRequired": true
       }
     ],
@@ -51,7 +51,7 @@
     "Parameters": [
       {
         "Name": "category",
-        "Type": "BookStore.EnttityLayer.Concrete.Category",
+        "Type": "BookStore.WebApi.Dtos.CategoryDto.UpdateCategory",
         "IsRequired": true
       }
     ],
@@ -92,8 +92,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "BookStore.EnttityLayer.Concrete.Product",
+        "Name": "createProduct",
+        "Type": "BookStore.WebApi.Dtos.ProductDto.CreateProduct",
         "IsRequired": true
       }
     ],
@@ -111,6 +111,22 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.WebApi.Controllers.ProductsController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Products",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateProduct",
+        "Type": "BookStore.WebApi.Dtos.ProductDto.UpdateProduct",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -145,6 +161,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.WebApi.Controllers.ProductsController",
+    "Method": "GetRandomProduct",
+    "RelativePath": "api/Products/random",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

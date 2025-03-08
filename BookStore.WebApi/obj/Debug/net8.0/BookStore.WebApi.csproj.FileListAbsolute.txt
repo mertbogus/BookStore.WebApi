@@ -152,3 +152,7 @@ C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\Bo
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.BusinessLayer.pdb
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.EntityLayer.dll
 C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\BookStore.EntityLayer.pdb
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\MERT\source\repos\BookStore.WebApi\BookStore.WebApi\bin\Debug\net8.0\AutoMapper.dll

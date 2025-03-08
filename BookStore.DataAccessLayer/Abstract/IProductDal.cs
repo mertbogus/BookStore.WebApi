@@ -10,5 +10,6 @@ namespace BookStore.DataAccessLayer.Abstract
     public interface IProductDal : IGenericDal<Product>
     {
         int GetProductCount();
+        Task<Product> GetProductByIndexAsync(int index);
     }
 }

@@ -9,6 +9,7 @@ namespace BookStore.BusinessLayer.Abstract
 {
     public  interface IProductService : IGenericService<Product>
     {
-        int TGetProductCount();
+        Task< int> TGetProductCount();
+        Task<Product> GetRandomProductAsync();
     }
 }

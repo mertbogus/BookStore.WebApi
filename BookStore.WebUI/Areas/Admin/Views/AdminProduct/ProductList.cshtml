@@ -1,15 +1,14 @@
 ﻿@model List<BookStore.WebUI.Dtos.ProductDtos.ResultProductDto>
 @{
-    Layout = null;
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
     int count = 0;
 }
 
-<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-<div class="container">
-    <br /><br />
+  <br /><br />
     <table class="table table-bordered">
         <tr>
             <th>#</th>
+            <th>Ürün Resmi</th>
             <th>Ürün Adı</th>
             <th>Ürün Stok</th>
             <th>Ürün Fiyat</th>
@@ -21,13 +20,13 @@
             count++;
             <tr>
                 <td>@count</td>
+                <td><img src="@item.ProductImageUrl" height="100" width="100" /></td>
                 <td>@item.ProductName</td>
                 <td>@item.ProductStock</td>
                 <td>@item.ProductPrice</td>
-                <td><a href="/Product/DeleteProduct/@item.ProductId" class="btn btn-danger">Sil</a></td>
-                <td><a href="/Product/UpdateProduct/@item.ProductId" class="btn btn-success">Güncelle</a></td>
+                <td><a href="/Admin/AdminProduct/DeleteProduct/@item.ProductId" class="btn btn-danger">Sil</a></td>
+                <td><a href="/Admin/AdminProduct/UpdateProduct/@item.ProductId" class="btn btn-success">Güncelle</a></td>
             </tr>
         }
     </table>
-    <a href="/Product/CreateProduct/" class="btn btn-primary"> Yeni Ürün Girişi </a>
-</div>
+    <a href="/Admin/AdminProduct/CreateProduct/" class="btn btn-primary"> Yeni Ürün Girişi </a>

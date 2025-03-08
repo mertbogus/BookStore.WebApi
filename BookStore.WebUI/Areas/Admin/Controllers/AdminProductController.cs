@@ -1,15 +1,19 @@
-﻿using BookStore.WebUI.Dtos.CategoryDtos;
+﻿using BookStore.EnttityLayer.Concrete;
+using BookStore.WebUI.Dtos.CategoryDtos;
 using BookStore.WebUI.Dtos.ProductDtos;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
+using System.Net.Http;
 using System.Text;
 
-namespace BookStore.WebUI.Controllers
+namespace BookStore.WebUI.Areas.Admin.Controllers
 {
-    public class ProductController : Controller
+    [Area("Admin")]
+    public class AdminProductController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
-        public ProductController(IHttpClientFactory httpClientFactory)
+        public AdminProductController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
@@ -24,8 +28,18 @@ namespace BookStore.WebUI.Controllers
         }
 
         [HttpGet]
-        public IActionResult CreateProduct()
+        public async Task<IActionResult> CreateProduct()
         {
+            var client = _httpClientFactory.CreateClient();
+            var response = await client.GetAsync("https://localhost:7292/api/categories");
+            if (!response.IsSuccessStatusCode)
+            {
+                ViewBag.Categories = new SelectList(new List<Category>(), "CategoryId", "CategoryName");
+                return View();
+            }
+
+            var categories = await response.Content.ReadFromJsonAsync<List<Category>>();
+            ViewBag.Categories = new SelectList(categories, "CategoryId", "CategoryName");
             return View();
         }
 
@@ -40,6 +54,8 @@ namespace BookStore.WebUI.Controllers
             {
                 return RedirectToAction("ProductList");
             }
+            var errorResponse = await responseMessage.Content.ReadAsStringAsync();
+            ViewBag.Error = "Ürün eklenirken hata oluştu: " + errorResponse;
             return View();
         }
 
