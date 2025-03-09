@@ -19,6 +19,7 @@ namespace BookStore.WebApi.Dtos.ProductDto
         public decimal ProductPrice { get; set; }
 
         public int CategoryId { get; set; }
+
         //[JsonIgnore]
         public Category Category { get; set; }
     }

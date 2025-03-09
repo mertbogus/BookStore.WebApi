@@ -9,7 +9,7 @@ namespace BookStore.BusinessLayer.Abstract
 {
     public interface ICategoryService : IGenericService<Category>
     {
-        List<Category> GetCategoryAndProduct();
+        
 
     }
 }

@@ -38,6 +38,11 @@ namespace BookStore.BusinessLayer.Concrete
             return _productDal.GetById(id);
         }
 
+        public List<Product> GetCategoryAndProduct()
+        {
+            return _productDal.GetCategoryAndProduct();
+        }
+
         public async Task<Product> GetRandomProductAsync()
         {
             int count = await TGetProductCount();

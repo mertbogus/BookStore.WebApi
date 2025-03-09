@@ -12,7 +12,6 @@ namespace BookStore.WebApi.Mapping
             CreateMap<Category, ResultCategory>().ReverseMap();
             CreateMap<Category, CreateCategory>().ReverseMap();
             CreateMap<Category, UpdateCategory>().ReverseMap();
-          
 
         }
     }

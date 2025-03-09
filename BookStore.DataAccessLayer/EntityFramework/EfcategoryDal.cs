@@ -2,6 +2,7 @@
 using BookStore.DataAccessLayer.Context;
 using BookStore.DataAccessLayer.Repositories;
 using BookStore.EnttityLayer.Concrete;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +16,7 @@ namespace BookStore.DataAccessLayer.EntityFramework
         public EfcategoryDal(BookStoreContext context) : base(context)
         {
         }
+
+ 
     }
 }

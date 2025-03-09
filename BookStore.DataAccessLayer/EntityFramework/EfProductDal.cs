@@ -30,5 +30,13 @@ namespace BookStore.DataAccessLayer.EntityFramework
             return await context.Products.Skip(index).FirstOrDefaultAsync();
         }
 
+        public List<Product> GetCategoryAndProduct()
+        {
+            using var context = new BookStoreContext();
+            return context.Products
+                .Include(x => x.Category)
+                .ToList();
+        }
+
     }
 }

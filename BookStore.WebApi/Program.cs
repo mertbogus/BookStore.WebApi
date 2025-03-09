@@ -5,6 +5,7 @@ using BookStore.DataAccessLayer.Context;
 using BookStore.DataAccessLayer.EntityFramework;
 using System.Reflection;
 using AutoMapper;
+using System.Text.Json.Serialization;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,7 +16,15 @@ builder.Services.AddScoped<ICategoryDal, EfcategoryDal>();
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<IProductDal, EfProductDal>();
 builder.Services.AddScoped<IProductService, ProductManager>();
-builder.Services.AddControllers();
+builder.Services.AddScoped<IWordService, WordManager>();
+builder.Services.AddScoped<IWordDal, EfWordDal>();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+        options.JsonSerializerOptions.MaxDepth = 32; // Gerekirse ayarlayabilirsiniz
+    });
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

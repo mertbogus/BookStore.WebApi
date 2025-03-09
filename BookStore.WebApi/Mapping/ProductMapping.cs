@@ -13,7 +13,9 @@ namespace BookStore.WebApi.Mapping
             CreateMap<Product, ResultProduct>().ReverseMap();
             CreateMap<Product, UpdateProduct>().ReverseMap();
             CreateMap<Product, CreateProduct>().ReverseMap();
-          
+            CreateMap<Product, ResultUIProductWithCategory>().ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.CategoryName))
+            .ReverseMap();
+
         }
 
     }

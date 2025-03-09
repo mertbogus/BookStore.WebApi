@@ -11,5 +11,7 @@ namespace BookStore.DataAccessLayer.Abstract
     {
         int GetProductCount();
         Task<Product> GetProductByIndexAsync(int index);
+
+        List<Product> GetCategoryAndProduct();
     }
 }

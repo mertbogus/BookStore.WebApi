@@ -41,6 +41,7 @@ namespace BookStore.BusinessLayer.Concrete
            return _categoryDal.GetById(id);
         }
 
+
         public void Update(Category entity)
         {
             _categoryDal.Update(entity);

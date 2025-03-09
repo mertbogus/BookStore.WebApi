@@ -80,6 +80,14 @@ namespace BookStore.WebApi.Controllers
 
             return Ok(randomProduct);
         }
+
+        [HttpGet("GetCategoryAndProduct")]
+        public IActionResult GetCategoryAndProduct()
+        {
+            var products = _productService.GetCategoryAndProduct();
+            var productDtos = _mapper.Map<List<ResultUIProductWithCategory>>(products);
+            return Ok(productDtos);
+        }
     }
 }
 

@@ -133,6 +133,16 @@
   },
   {
     "ContainingType": "BookStore.WebApi.Controllers.ProductsController",
+    "Method": "GetCategoryAndProduct",
+    "RelativePath": "api/Products/GetCategoryAndProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.WebApi.Controllers.ProductsController",
     "Method": "GetProduct",
     "RelativePath": "api/Products/GetProduct",
     "HttpMethod": "GET",
@@ -171,6 +181,90 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.WebApi.Controllers.WordsController",
+    "Method": "WordList",
+    "RelativePath": "api/Words",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.WebApi.Controllers.WordsController",
+    "Method": "CreateWord",
+    "RelativePath": "api/Words",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createWord",
+        "Type": "BookStore.WebApi.Dtos.WordDto.CreateWord",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.WebApi.Controllers.WordsController",
+    "Method": "DeleteWord",
+    "RelativePath": "api/Words",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.WebApi.Controllers.WordsController",
+    "Method": "UpdateWord",
+    "RelativePath": "api/Words",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateWord",
+        "Type": "BookStore.WebApi.Dtos.WordDto.UpdateWord",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.WebApi.Controllers.WordsController",
+    "Method": "GetLastWord",
+    "RelativePath": "api/Words/GetLastWord",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.WebApi.Controllers.WordsController",
+    "Method": "GetWord",
+    "RelativePath": "api/Words/GetWord",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]

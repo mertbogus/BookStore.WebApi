@@ -21,6 +21,27 @@ namespace BookStore.DataAccessLayer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("BookStore.EntityLayer.Concrete.Word", b =>
+                {
+                    b.Property<int>("WordId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("WordId"));
+
+                    b.Property<string>("WordContent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("WordWriter")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("WordId");
+
+                    b.ToTable("Words");
+                });
+
             modelBuilder.Entity("BookStore.EnttityLayer.Concrete.Category", b =>
                 {
                     b.Property<int>("CategoryId")

@@ -56,6 +56,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0XFVwZGF0ZVByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MERT/source/repos/BookStore.WebApi/BookStore.WebUI/Areas/Admin/Views/AdminWord/CreateWord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Xb3JkXENyZWF0ZVdvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MERT/source/repos/BookStore.WebApi/BookStore.WebUI/Areas/Admin/Views/AdminWord/UpdateWord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Xb3JkXFVwZGF0ZVdvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MERT/source/repos/BookStore.WebApi/BookStore.WebUI/Areas/Admin/Views/AdminWord/WordList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Xb3JkXFdvcmRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MERT/source/repos/BookStore.WebApi/BookStore.WebUI/Areas/Admin/Views/Shared/Components/_AdminLayoutHeaderComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTGF5b3V0SGVhZGVyQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -106,6 +118,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/MERT/source/repos/BookStore.WebApi/BookStore.WebUI/Views/Shared/Components/_UISpecialOfferComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJU3BlY2lhbE9mZmVyQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MERT/source/repos/BookStore.WebApi/BookStore.WebUI/Views/Shared/Components/_UISubscribeComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJU3Vic2NyaWJlQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MERT/source/repos/BookStore.WebApi/BookStore.WebUI/Views/Shared/Components/_UIWordOfTheDayComponent/Default.cshtml]

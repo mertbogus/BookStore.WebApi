@@ -1,0 +1,23 @@
+﻿
+@model GetByIdWordDto
+@{
+    ViewData["Title"] = "UpdateWord";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<form method="post" class="w-80 mx-auto mt-4">
+    <div class="p-4 shadow-lg border-0 bg-transparent">
+        <h3 class="text-center mb-3">Sözü Güncelle</h3>
+        <input type="hidden" asp-for="WordId" />
+        <label class="fw-bold">Söz İçeriği</label>
+        <textarea asp-for="WordContent" class="form-control mb-3" placeholder="Sözü Yazınız" required></textarea>
+
+        <label class="fw-bold">Yazar Adı Soyadı</label>
+        <input type="text" asp-for="WordWriter" class="form-control mb-3" placeholder="Yazarın Adını ve Soyadını Giriniz." required />
+        <button type="submit" class="btn btn-warning fw-bold w-100">
+            <i class="fas fa-plus"></i> Sözü Güncelle
+        </button>
+    </div>
+</form>
+
+

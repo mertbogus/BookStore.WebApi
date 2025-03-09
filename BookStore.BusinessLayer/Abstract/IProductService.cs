@@ -11,5 +11,7 @@ namespace BookStore.BusinessLayer.Abstract
     {
         Task< int> TGetProductCount();
         Task<Product> GetRandomProductAsync();
+
+        List<Product> GetCategoryAndProduct();
     }
 }

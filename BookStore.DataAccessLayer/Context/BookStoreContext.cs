@@ -1,4 +1,5 @@
-﻿using BookStore.EnttityLayer.Concrete;
+﻿using BookStore.EntityLayer.Concrete;
+using BookStore.EnttityLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -17,5 +18,7 @@ namespace BookStore.DataAccessLayer.Context
 
         public DbSet<Category> Categories  { get; set; }
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<Word> Words { get; set; }
     }
 }
