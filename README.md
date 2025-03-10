@@ -3,6 +3,7 @@
 M&Y Yazılım Eğitim Akademi Danışmanlık bünyesinde, Murat Yücedağ'ın verdiği eğitim kapsamında geliştirilmiştir. Projenin %80'lik kısmı case olarak atanmıştır. Caseler başarıyla tamamlanmıştır. Proje UI ve Admin Paneli olmak üzere iki katmandan oluşmaktadır. UI tarafı bir kitap sitesi olarak tasarlanmıştır. Kullanıcı burada ilgili kitapları görebilir, detaylarına
 bakabilir. Ayrıca birbinden farklı kategorilere sahip olan kitapları filtreliyebilir. Yeni gelişmelerden haberdar olmak isterse abone olabilir. M½
 
+
 ## Proje Detayları
 
 📃 EntityLayer: Veritabanı tablolarını temsil eden entity sınıflarını içerir.
@@ -18,7 +19,8 @@ bakabilir. Ayrıca birbinden farklı kategorilere sahip olan kitapları filtreli
 📚 Area: Ayrıca admin paneli ayrı bir area içerisine taşınmış, bu saye de daha düzenli bir yapı elde edilmiştir.
 
 
-Proje Özellikleri - Kısaca
+
+## Proje Özellikleri - Kısaca
 
 🔐 Asp Core 8.0 ile geliştirildi.
 
