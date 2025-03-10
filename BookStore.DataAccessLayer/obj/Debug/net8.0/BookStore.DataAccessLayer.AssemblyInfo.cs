@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookStore.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f47e9688f25e20d9984dad29567d1a36c7201c89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38805c8c5d5e43b16c9ef36c78ba6a6749648737")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookStore.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookStore.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

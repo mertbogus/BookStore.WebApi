@@ -4,9 +4,11 @@ namespace BookStore.WebUI.viewComponents.Subscribe
 {
     public class _UISubscribeComponent :ViewComponent
     {
-        public IViewComponentResult Invoke()
+        public async Task<IViewComponentResult> InvokeAsync()
         {
             return View();
         }
+
+
     }
 }

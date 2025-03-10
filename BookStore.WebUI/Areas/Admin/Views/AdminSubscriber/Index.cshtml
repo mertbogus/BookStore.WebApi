@@ -1,0 +1,135 @@
+﻿@using BookStore.WebUI.Dtos.SubscribeDtos
+@model List<ResultSubscribeDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Abone Olan Mail</th>
+        <th>Mail Gönder</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        count++;
+        <tr>
+            <td>@count</td>
+            <td>@item.SubscribeMail</td>
+            <td>
+                <!-- Mail gönder butonuna @item.SubscribeMail'i data-email olarak ekliyoruz -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sendEmailModal" data-email="@item.SubscribeMail">
+                    Mail Gönder
+                </button>
+            </td>
+        </tr>
+    }
+</table>
+
+<!-- Modal for sending email -->
+<div class="modal fade" id="sendEmailModal" tabindex="-1" role="dialog" aria-labelledby="sendEmailModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="sendEmailModalLabel">Aboneye Mail Gönder</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Kapat">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="sendEmailForm">
+                    <div class="form-group">
+                        <label for="emailTo">E-posta Adresi</label>
+                        <input type="email" class="form-control" id="emailTo" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailSubject">Konu</label>
+                        <input type="text" class="form-control" id="emailSubject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailBody">Mesaj</label>
+                        <textarea class="form-control" id="emailBody" rows="4" required></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                <button type="button" class="btn btn-primary" id="sendEmailButton">Gönder</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Modal açılmadan önce, email'i dinamik olarak modal içindeki input'a yerleştiriyoruz
+    function openEmailModal(email) {
+        // E-posta adresini modalın email alanına yerleştiriyoruz
+        $('#emailTo').val(email);
+
+        // Modal'ı açıyoruz
+        $('#sendEmailModal').modal('show');
+    }
+
+    // Butona tıklama olayını dinliyoruz ve email adresi alınıyor
+    $('.openEmailModalButton').click(function() {
+        var email = $(this).data('email'); // data-email özelliğinden email'i alıyoruz
+        openEmailModal(email); // openEmailModal fonksiyonunu çağırarak email ile modalı açıyoruz
+    });
+
+    // E-posta gönderme işlemi
+    $('#sendEmailButton').click(function () {
+        var emailTo = $('#emailTo').val();  // Modalda e-posta alanından alınan değer
+        var emailSubject = $('#emailSubject').val();  // Konu alanı
+        var emailBody = $('#emailBody').val();  // Mesaj alanı
+
+        // Konu ve mesaj alanlarının dolu olup olmadığını kontrol ediyoruz
+        if (emailSubject && emailBody) {
+            var emailData = {
+                To: emailTo,
+                Subject: emailSubject,
+                Body: emailBody
+            };
+
+            // AJAX isteği gönderiyoruz
+            $.ajax({
+                url: '/Admin/AdminSubscriber/SendEmail', // Backend URL
+                type: 'POST',
+                contentType: 'application/json', // JSON formatında veri gönderiyoruz
+                data: JSON.stringify(emailData), // Veriyi JSON formatında gönderiyoruz
+                success: function (response) {
+                    // E-posta gönderme başarılı olduğunda
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'E-posta başarıyla gönderildi!',
+                        confirmButtonText: 'Tamam'
+                    }).then(function () {
+                        location.reload(); // Sayfayı yeniden yükleyerek verileri güncelliyoruz
+                    });
+                    $('#sendEmailModal').modal('hide'); // Modal'ı kapatıyoruz
+                },
+                error: function (xhr, status, error) {
+                    // E-posta gönderme sırasında hata oluşursa
+                    console.log('Error: ' + status + ' - ' + error);
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Bir hata oluştu',
+                        text: 'E-posta gönderilemedi, lütfen tekrar deneyin.',
+                        confirmButtonText: 'Tamam'
+                    });
+                }
+            });
+        } else {
+            // Konu veya mesaj boşsa kullanıcıyı uyarıyoruz
+            Swal.fire({
+                icon: 'warning',
+                title: 'Eksik Alanlar',
+                text: 'Lütfen tüm alanları doldurun.',
+                confirmButtonText: 'Tamam'
+            });
+        }
+    });
+</script>

@@ -1,9 +1,8 @@
-﻿
-@*
-    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-*@
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+﻿@model Dictionary<string, string>
 
+
+
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon rotate-n-15">
@@ -12,21 +11,29 @@
         <div class="sidebar-brand-text mx-3">Admin Paneli <sup>2</sup></div>
     </a>
 
+    <!-- Dil Değiştirme Butonları -->
+    <div class="text-center my-3">
+        <div class="btn-group" role="group">
+            <button class="btn btn-light btn-sm" onclick="changeCulture('tr-TR')">🇹🇷 Türkçe</button>
+            <button class="btn btn-light btn-sm" onclick="changeCulture('en-US')">🇺🇸 English</button>
+        </div>
+    </div>
+
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="/Admin/AdminDashboard/Index">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span>
+            <span>@Model["Dashboard"]</span>
         </a>
     </li>
     <!-- Nav Item - Categories -->
     <li class="nav-item">
         <a class="nav-link" href="/Admin/AdminCategories/CategoryList">
             <i class="fa-solid fa-list"></i>
-            <span>Kategoriler</span>
+            <span>@Model["Categories"]</span>
         </a>
     </li>
 
@@ -34,14 +41,21 @@
     <li class="nav-item">
         <a class="nav-link" href="/Admin/AdminProduct/ProductList">
             <i class="fa-solid fa-book"></i>
-            <span>Kitaplar</span>
+            <span>@Model["Books"]</span>
         </a>
     </li>
 
     <li class="nav-item">
         <a class="nav-link" href="/Admin/AdminWord/WordList">
             <i class="fa-solid fa-pen"></i>
-            <span>Sözler</span>
+            <span>@Model["Words"]</span>
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="/Admin/AdminSubscriber/Index">
+            <i class="fa-solid fa-users"></i>
+            <span>@Model["Subscribers"]</span>
         </a>
     </li>
 
@@ -54,3 +68,12 @@
     </div>
 
 </ul>
+
+<script>
+    function changeCulture(culture) {
+        // Sayfayı seçilen kültürle yeniden yükle
+        const url = new URL(window.location.href);
+        url.searchParams.set('culture', culture);
+        window.location.href = url.toString();
+    }
+</script>

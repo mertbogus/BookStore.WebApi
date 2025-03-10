@@ -21,6 +21,23 @@ namespace BookStore.DataAccessLayer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("BookStore.EntityLayer.Concrete.Subscribe", b =>
+                {
+                    b.Property<int>("SubscribeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SubscribeId"));
+
+                    b.Property<string>("SubscribeMail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("SubscribeId");
+
+                    b.ToTable("Subscribes");
+                });
+
             modelBuilder.Entity("BookStore.EntityLayer.Concrete.Word", b =>
                 {
                     b.Property<int>("WordId")

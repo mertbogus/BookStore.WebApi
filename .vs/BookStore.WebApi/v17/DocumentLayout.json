@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17A4E938-D925-4C7E-AE58-1958F01A221D}|BookStore.WebUI\\BookStore.WebUI.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.webui\\viewcomponents\\slider\\_uislidercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17A4E938-D925-4C7E-AE58-1958F01A221D}|BookStore.WebUI\\BookStore.WebUI.csproj|solutionrelative:bookstore.webui\\viewcomponents\\slider\\_uislidercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17A4E938-D925-4C7E-AE58-1958F01A221D}|BookStore.WebUI\\BookStore.WebUI.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.webui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17A4E938-D925-4C7E-AE58-1958F01A221D}|BookStore.WebUI\\BookStore.WebUI.csproj|solutionrelative:bookstore.webui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17A4E938-D925-4C7E-AE58-1958F01A221D}|BookStore.WebUI\\BookStore.WebUI.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.webui\\views\\shared\\components\\_uisubscribecomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17A4E938-D925-4C7E-AE58-1958F01A221D}|BookStore.WebUI\\BookStore.WebUI.csproj|solutionrelative:bookstore.webui\\views\\shared\\components\\_uisubscribecomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17A4E938-D925-4C7E-AE58-1958F01A221D}|BookStore.WebUI\\BookStore.WebUI.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.webui\\areas\\admin\\views\\shared\\components\\_adminlayoutheadercomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17A4E938-D925-4C7E-AE58-1958F01A221D}|BookStore.WebUI\\BookStore.WebUI.csproj|solutionrelative:bookstore.webui\\areas\\admin\\views\\shared\\components\\_adminlayoutheadercomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17A4E938-D925-4C7E-AE58-1958F01A221D}|BookStore.WebUI\\BookStore.WebUI.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.webui\\areas\\admin\\views\\adminsubscriber\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17A4E938-D925-4C7E-AE58-1958F01A221D}|BookStore.WebUI\\BookStore.WebUI.csproj|solutionrelative:bookstore.webui\\areas\\admin\\views\\adminsubscriber\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17A4E938-D925-4C7E-AE58-1958F01A221D}|BookStore.WebUI\\BookStore.WebUI.csproj|c:\\users\\mert\\source\\repos\\bookstore.webapi\\bookstore.webui\\areas\\admin\\controllers\\adminsubscribercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17A4E938-D925-4C7E-AE58-1958F01A221D}|BookStore.WebUI\\BookStore.WebUI.csproj|solutionrelative:bookstore.webui\\areas\\admin\\controllers\\adminsubscribercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,15 +66,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebUI\\Views\\Shared\\Components\\_UISubscribeComponent\\Default.cshtml",
+              "RelativeDocumentMoniker": "BookStore.WebUI\\Views\\Shared\\Components\\_UISubscribeComponent\\Default.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebUI\\Views\\Shared\\Components\\_UISubscribeComponent\\Default.cshtml",
+              "RelativeToolTip": "BookStore.WebUI\\Views\\Shared\\Components\\_UISubscribeComponent\\Default.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAYwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T05:59:09.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_UISliderComponent.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebUI\\viewComponents\\Slider\\_UISliderComponent.cs",
-              "RelativeDocumentMoniker": "BookStore.WebUI\\viewComponents\\Slider\\_UISliderComponent.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebUI\\viewComponents\\Slider\\_UISliderComponent.cs",
-              "RelativeToolTip": "BookStore.WebUI\\viewComponents\\Slider\\_UISliderComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebUI\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookStore.WebUI\\Views\\Default\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebUI\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "BookStore.WebUI\\Views\\Default\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T05:54:21.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebUI\\Areas\\Admin\\Views\\Shared\\Components\\_AdminLayoutHeaderComponent\\Default.cshtml",
+              "RelativeDocumentMoniker": "BookStore.WebUI\\Areas\\Admin\\Views\\Shared\\Components\\_AdminLayoutHeaderComponent\\Default.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebUI\\Areas\\Admin\\Views\\Shared\\Components\\_AdminLayoutHeaderComponent\\Default.cshtml",
+              "RelativeToolTip": "BookStore.WebUI\\Areas\\Admin\\Views\\Shared\\Components\\_AdminLayoutHeaderComponent\\Default.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T05:50:21.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebUI\\Areas\\Admin\\Views\\AdminSubscriber\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookStore.WebUI\\Areas\\Admin\\Views\\AdminSubscriber\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebUI\\Areas\\Admin\\Views\\AdminSubscriber\\Index.cshtml",
+              "RelativeToolTip": "BookStore.WebUI\\Areas\\Admin\\Views\\AdminSubscriber\\Index.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwD0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T05:40:14.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminSubscriberController.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebUI\\Areas\\Admin\\Controllers\\AdminSubscriberController.cs",
+              "RelativeDocumentMoniker": "BookStore.WebUI\\Areas\\Admin\\Controllers\\AdminSubscriberController.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\BookStore.WebApi\\BookStore.WebUI\\Areas\\Admin\\Controllers\\AdminSubscriberController.cs",
+              "RelativeToolTip": "BookStore.WebUI\\Areas\\Admin\\Controllers\\AdminSubscriberController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T06:16:01.035Z",
+              "WhenOpened": "2025-03-10T05:40:07.807Z",
               "EditorCaption": ""
             }
           ]

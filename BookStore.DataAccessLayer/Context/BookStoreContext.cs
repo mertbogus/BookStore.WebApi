@@ -20,5 +20,6 @@ namespace BookStore.DataAccessLayer.Context
         public DbSet<Product> Products { get; set; }
 
         public DbSet<Word> Words { get; set; }
+        public DbSet<Subscribe> Subscribes { get; set; }
     }
 }

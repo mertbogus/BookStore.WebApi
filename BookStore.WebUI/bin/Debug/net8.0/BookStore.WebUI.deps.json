@@ -15,6 +15,14 @@
         },
         "runtime": {
           "BookStore.WebUI.dll": {}
+        },
+        "resources": {
+          "en-US/BookStore.WebUI.resources.dll": {
+            "locale": "en-US"
+          },
+          "tr-TR/BookStore.WebUI.resources.dll": {
+            "locale": "tr-TR"
+          }
         }
       },
       "AutoMapper/14.0.0": {

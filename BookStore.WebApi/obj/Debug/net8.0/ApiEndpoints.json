@@ -74,6 +74,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BookStore.WebApi.Controllers.CategoriesController",
+    "Method": "GetCategoryWithProduct",
+    "RelativePath": "api/Categories/GetCategoryWithProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BookStore.WebApi.Controllers.ProductsController",
     "Method": "ProductList",
     "RelativePath": "api/Products",
@@ -181,6 +191,48 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.WebApi.Controllers.SubscribeController",
+    "Method": "SubscribeList",
+    "RelativePath": "api/Subscribe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.WebApi.Controllers.SubscribeController",
+    "Method": "CreateSubscribe",
+    "RelativePath": "api/Subscribe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createSubscribeDto",
+        "Type": "BookStore.WebApi.Dtos.SubscribeDto.CreateSubscribeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.WebApi.Controllers.SubscribeController",
+    "Method": "SendEmailToSubscribers",
+    "RelativePath": "api/Subscribe/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BookStore.WebApi.Dtos.MailSendingDto.EmailRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

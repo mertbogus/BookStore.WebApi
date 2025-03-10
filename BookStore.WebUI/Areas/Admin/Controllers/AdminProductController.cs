@@ -18,6 +18,20 @@ namespace BookStore.WebUI.Areas.Admin.Controllers
             _httpClientFactory = httpClientFactory;
         }
 
+        public async Task<IActionResult> CategorySelectListAsync()
+        {
+            var client2 = _httpClientFactory.CreateClient();
+            var response2 = await client2.GetAsync("https://localhost:7292/api/categories");
+            if (!response2.IsSuccessStatusCode)
+            {
+                ViewBag.Categories = new SelectList(new List<Category>(), "CategoryId", "CategoryName");
+                return View();
+            }
+
+            var categories = await response2.Content.ReadFromJsonAsync<List<Category>>();
+            ViewBag.Categories = new SelectList(categories, "CategoryId", "CategoryName");
+            return NoContent();
+        }
         public async Task<IActionResult> ProductList()
         {
             var client = _httpClientFactory.CreateClient();
@@ -30,16 +44,7 @@ namespace BookStore.WebUI.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> CreateProduct()
         {
-            var client = _httpClientFactory.CreateClient();
-            var response = await client.GetAsync("https://localhost:7292/api/categories");
-            if (!response.IsSuccessStatusCode)
-            {
-                ViewBag.Categories = new SelectList(new List<Category>(), "CategoryId", "CategoryName");
-                return View();
-            }
-
-            var categories = await response.Content.ReadFromJsonAsync<List<Category>>();
-            ViewBag.Categories = new SelectList(categories, "CategoryId", "CategoryName");
+            CategorySelectListAsync();
             return View();
         }
 
@@ -73,6 +78,8 @@ namespace BookStore.WebUI.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> UpdateProduct(int id)
         {
+            CategorySelectListAsync();
+
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("https://localhost:7292/api/Products/GetProduct?id=" + id);
             if (responseMessage.IsSuccessStatusCode)
@@ -81,6 +88,7 @@ namespace BookStore.WebUI.Areas.Admin.Controllers
                 var values = JsonConvert.DeserializeObject<GetByIdProductDto>(jsonData);
                 return View(values);
             }
+
             return View();
         }
 

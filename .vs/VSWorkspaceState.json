@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BookStore.WebUI",
+    "\\BookStore.WebUI\\Areas",
+    "\\BookStore.WebUI\\Areas\\Admin",
+    "\\BookStore.WebUI\\Areas\\Admin\\Views",
+    "\\BookStore.WebUI\\Areas\\Admin\\Views\\AdminProduct"
+  ],
+  "SelectedNode": "\\BookStore.WebUI\\Areas\\Admin\\Views\\AdminProduct\\ProductList.cshtml",
+  "PreviewInSolutionExplorer": false
+}

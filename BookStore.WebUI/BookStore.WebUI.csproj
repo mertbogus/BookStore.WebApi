@@ -91,4 +91,25 @@
     <ProjectReference Include="..\BookStore.EnttityLayer\BookStore.EntityLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Areas\Admin\Resources\_AdminLayoutSideBarComponent.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>_AdminLayoutSideBarComponent.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Areas\Admin\Resources\_AdminLayoutSideBarComponent.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Admin\Resources\_AdminLayoutSideBarComponent.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>_AdminLayoutSideBarComponent.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Admin\Resources\_AdminLayoutSideBarComponent.tr-TR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

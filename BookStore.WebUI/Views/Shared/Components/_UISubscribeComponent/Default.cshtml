@@ -1,42 +1,90 @@
-﻿
-@*
-    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-*@
-<section id="subscribe">
-	<div class="container">
-		<div class="row justify-content-center">
-
-			<div class="col-md-8">
-				<div class="row">
-
-					<div class="col-md-6">
-
-						<div class="title-element">
-							<h2 class="section-title divider">Subscribe to our newsletter</h2>
-						</div>
-
-					</div>
-					<div class="col-md-6">
-
-						<div class="subscribe-content" data-aos="fade-up">
-							<p>
-								Sed eu feugiat amet, libero ipsum enim pharetra hac dolor sit amet, consectetur. Elit
-								adipiscing enim pharetra hac.
-							</p>
-							<form id="form">
-								<input type="text" name="email" placeholder="Enter your email addresss here">
-								<button class="btn-subscribe">
-									<span>send</span>
-									<i class="icon icon-send"></i>
-								</button>
-							</form>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-
-		</div>
-	</div>
+﻿<section id="subscribe">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="title-element">
+                            <h2 class="section-title divider">Abone Ol</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="subscribe-content" data-aos="fade-up">
+                            <p>
+                                Buradan abone bültenimize abone olup, son gelişmelerden haberdar olabilirsiniz.
+                            </p>
+                            <form id="subscribeForm">
+                                <input type="email" id="email" name="email" placeholder="Mail Adresinizi Giriniz." required>
+                                <button type="submit" class="btn-subscribe">
+                                    <span>Abone Ol</span>
+                                    <i class="icon icon-send"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
+<script>
+    $(document).ready(function() {
+        // Form submit event
+        $('#subscribeForm').submit(function(event) {
+            event.preventDefault(); // Formun normal submit olmasını engeller
+
+            var email = $('#email').val(); // Formdan gelen e-posta değeri
+
+            if (email) {
+                // AJAX isteği göndermek
+                $.ajax({
+                    url: '/UISubscribe/CreateSubscribeAsync',  // Controller methodu
+                    type: 'POST',
+                    data: JSON.stringify({ SubscribeMail: email }), // Burada SubscribeMail kullanıyoruz
+                    contentType: 'application/json',  // JSON formatı
+                    success: function(response) {
+                        // Dönen cevabı kontrol et
+                        if (response.success) {
+                            // SweetAlert success mesajı
+                            Swal.fire({
+                                icon: 'success',
+                                title: response.message,  // response.message success durumunda dönecek
+                                confirmButtonText: 'Tamam'
+                            }).then((result) => {
+                                // SweetAlert tamam butonuna tıklandığında sayfayı yeniden yükle
+                                if (result.isConfirmed) {
+                                    location.reload(); // Sayfayı yeniden yükler
+                                }
+                            });
+                        } else {
+                            // SweetAlert error mesajı
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Hata!',
+                                text: response.message,  // response.message error durumunda dönecek
+                                confirmButtonText: 'Tamam'
+                            });
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        // AJAX hata mesajı
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Bir hata oluştu!',
+                            text: error,
+                            confirmButtonText: 'Tamam'
+                        });
+                    }
+                });
+            } else {
+                // E-posta alanı boşsa uyarı
+                Swal.fire({
+                    icon: 'warning',
+                    title: 'Lütfen geçerli bir e-posta adresi girin!',
+                    confirmButtonText: 'Tamam'
+                });
+            }
+        });
+    });
+</script>

@@ -55,5 +55,6 @@ namespace BookStore.WebApi.Controllers
         {
             return Ok(_categoryService.GetById(id));
         }
+
     }
 }

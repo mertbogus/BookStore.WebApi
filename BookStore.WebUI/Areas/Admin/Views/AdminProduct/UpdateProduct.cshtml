@@ -4,19 +4,35 @@
     Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
 }
 
-<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-
 <form method="post">
-        <br /><br />
+
+    <br /><br />
+    <div class="form-group mb-3">
         <input type="hidden" asp-for="ProductId" />
-        <label>Ürün Adı</label>
-        <input type="text" asp-for="ProductName" class="form-control" />
-        <br />
-        <label>Ürün Fiyatı</label>
-        <input type="text" asp-for="ProductPrice" class="form-control" />
-        <br />
-        <label>Ürün Stok Sayısı</label>
-        <input type="text" asp-for="ProductStock" class="form-control" />
-        <br />
-        <button type="submit" class="btn btn-warning">Ürünü Güncelle</button>
+        <label>Kategori Seçiniz</label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control">
+            <option value="">Seçiniz</option>
+        </select>
+    </div>
+    <span>@ViewBag.Error</span>
+    <label>Kitap Resim Url</label>
+    <input type="text" asp-for="ProductImageUrl" class="form-control" required />
+
+    <label>Kitap Adı</label>
+    <input type="text" asp-for="ProductName" class="form-control" required />
+
+    <label>Kitap Açıklaması</label>
+    <textarea asp-for="ProductDesc" class="form-control" rows="4" required></textarea>
+
+    <label>Kitap Yazarı</label>
+    <input type="text" asp-for="ProductWriterName" class="form-control" required />
+
+    <label>Kitap Stok Sayısı</label>
+    <input type="text" asp-for="ProductStock" class="form-control mt-1" required />
+
+    <label>Kitap Fiyatı</label>
+    <input type="text" asp-for="ProductPrice" class="form-control mt-1" required />
+
+    <button class="btn btn-primary mt-2">Kitap Ekle</button>
+
 </form>
