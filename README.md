@@ -19,6 +19,7 @@ bakabilir. Ayrıca birbinden farklı kategorilere sahip olan kitapları filtreli
 
 
 Proje Özellikleri - Kısaca
+
 🔐 Asp Core 8.0 ile geliştirildi.
 
 🗄️ Veritabanı olarak MSSQL tercih edildi.
